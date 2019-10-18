@@ -1,0 +1,6 @@
+framework module jde_agr2019 {
+  umbrella header "jde-agr2019-umbrella.h"
+
+  export *
+  module * { export * }
+}
