@@ -1,13 +1,13 @@
 //
 //  demo.swift
-//  Pods
+//  jdeagr2019
 //
 //  Created by jasmine DE-AGRELA on 2019/10/18.
 //
 
 import Foundation
 
-public class demo {
+public class Demo {
     public init() {
     }
     

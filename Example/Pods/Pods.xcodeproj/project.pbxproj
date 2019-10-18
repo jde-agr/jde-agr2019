@@ -16,8 +16,7 @@
 		ACC442DC33394B8D606862F9FE02E73C /* jdeagr2019-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E70FFB5475EFF898B39DAB90768363DD /* jdeagr2019-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		AF209D8DDB8EAC26BF5C0B731FD703F6 /* Pods-jdeagr2019_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F510A5FE9A8ED7039A92D9A639EFFDB /* Pods-jdeagr2019_Tests-dummy.m */; };
 		B2AC49AC2D49135E3FC70B3FA793764B /* jdeagr2019-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 868FED5EC046623C7E94503945CCFA7B /* jdeagr2019-dummy.m */; };
-		BEFEF1F12359B4F70053B506 /* demo.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEFEF1F02359B4F70053B506 /* demo.swift */; };
-		BEFEF1F22359B4F70053B506 /* demo.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEFEF1F02359B4F70053B506 /* demo.swift */; };
+		BEFEF1F92359C02D0053B506 /* demo.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEFEF1F82359C02D0053B506 /* demo.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -64,7 +63,7 @@
 		AF0EF0BB2F579F3597FF71B5A246A8FD /* Pods-jdeagr2019_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-jdeagr2019_Tests.modulemap"; sourceTree = "<group>"; };
 		B53272A6E382149C09C2119B2F874446 /* Pods_jdeagr2019_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_jdeagr2019_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BD99FBF2F573B8319AE36BC5401080CB /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
-		BEFEF1F02359B4F70053B506 /* demo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = demo.swift; sourceTree = "<group>"; };
+		BEFEF1F82359C02D0053B506 /* demo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = demo.swift; sourceTree = "<group>"; };
 		D551AF1A68314917CBC68E350A86FCD7 /* Pods-jdeagr2019_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-jdeagr2019_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		D731803698ECB9F06F3994E0697AD151 /* Pods-jdeagr2019_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-jdeagr2019_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		E6D6B6A69FCF7E2E7E21493C5C4F517F /* Pods-jdeagr2019_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-jdeagr2019_Example-umbrella.h"; sourceTree = "<group>"; };
@@ -163,7 +162,7 @@
 		99B2296E727C6574F46843F488751B8D /* jdeagr2019 */ = {
 			isa = PBXGroup;
 			children = (
-				BEFEF1EF2359B4E10053B506 /* Source */,
+				BEFEF1F72359C01C0053B506 /* Source */,
 				4991E374DB58689A656610D12056FE63 /* Pod */,
 				233CF470BFCACFF5E1543AA13D716540 /* Support Files */,
 			);
@@ -187,10 +186,10 @@
 			path = "Target Support Files/Pods-jdeagr2019_Tests";
 			sourceTree = "<group>";
 		};
-		BEFEF1EF2359B4E10053B506 /* Source */ = {
+		BEFEF1F72359C01C0053B506 /* Source */ = {
 			isa = PBXGroup;
 			children = (
-				BEFEF1F02359B4F70053B506 /* demo.swift */,
+				BEFEF1F82359C02D0053B506 /* demo.swift */,
 			);
 			path = Source;
 			sourceTree = "<group>";
@@ -325,9 +324,6 @@
 				LastSwiftUpdateCheck = 1100;
 				LastUpgradeCheck = 1100;
 				TargetAttributes = {
-					92B4463B20285EDE359BD5853B89071C = {
-						LastSwiftMigration = 1110;
-					};
 					B2EA764E211F7E268969FEC6BCDDA6D3 = {
 						LastSwiftMigration = 1110;
 					};
@@ -390,7 +386,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BEFEF1F12359B4F70053B506 /* demo.swift in Sources */,
+				BEFEF1F92359C02D0053B506 /* demo.swift in Sources */,
 				B2AC49AC2D49135E3FC70B3FA793764B /* jdeagr2019-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -399,7 +395,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BEFEF1F22359B4F70053B506 /* demo.swift in Sources */,
 				25A226DE42C5F53633DDA4EA54131243 /* Pods-jdeagr2019_Example-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -683,7 +678,6 @@
 			baseConfigurationReference = A3E1C41521D754528A45D6255525DF07 /* Pods-jdeagr2019_Example.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -706,8 +700,6 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -719,7 +711,6 @@
 			baseConfigurationReference = 85E0EE12F6569D9A92F5DE19E9923DA5 /* Pods-jdeagr2019_Example.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -742,7 +733,6 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
