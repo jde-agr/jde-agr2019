@@ -1,5 +1,5 @@
 import XCTest
-import jde-agr2019
+import jdeagr2019
 
 class Tests: XCTestCase {
     
