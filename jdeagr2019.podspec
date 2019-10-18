@@ -29,7 +29,7 @@ Pod::Spec.new do |s|
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
   
   s.ios.deployment_target = '13.1'
-  s.source_files = 'Source/**/*.swift'
+  s.source_files = 'Source/**/*.swift', 'Source/**/*.xcdatamodeld'
   s.swift_version = '5.0'
   s.platforms = {
     "ios": "13.1"
@@ -43,4 +43,5 @@ Pod::Spec.new do |s|
   
   # s.public_header_files = 'Pod/Classes/**/*.h'
   s.frameworks = 'UIKit', 'CoreData'
+  s.requires_arc = true
 end
