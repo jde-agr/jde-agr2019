@@ -13,7 +13,6 @@
 		230948FAE6052F2FD5078DCD7D03D1FD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
 		3BA8DC522B449B22EAF252DAC647B9F8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
 		64929FB7099253601229DB9E546BC8FC /* Pods-jde-agr2019_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 940847CE955A22B5AE915DE24EBA55E5 /* Pods-jde-agr2019_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		9E1D544C8EEA8C872CAF30ECE189E7E6 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF292B868C5BEC43A40F179B008E904D /* ReplaceMe.swift */; };
 		A2E4D744938F610B1622E99E5AECBF22 /* Pods-jde-agr2019_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D51380EBEFF8ED80F9AC8CB3A1619FA2 /* Pods-jde-agr2019_Example-dummy.m */; };
 		ABF51E149A89F2F4D2E938CBAC76C052 /* Pods-jde-agr2019_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F01ED5C42F75BE67FD594262FF7CBFF5 /* Pods-jde-agr2019_Tests-dummy.m */; };
 		D377D83CCEF4E2A9454C8B4200F4BB96 /* jde-agr2019-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5CFA612360D27EF46542C1944A5E53B4 /* jde-agr2019-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -37,7 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		13968B8AD94F0CFFED7E5DC57328369B /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		13968B8AD94F0CFFED7E5DC57328369B /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		147DA5D3EC4898A81382D0E23699718A /* Pods-jde-agr2019_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-jde-agr2019_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		25264D811C14BD3732699D29060C5517 /* Pods-jde-agr2019_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-jde-agr2019_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
@@ -45,30 +44,29 @@
 		3B2A50AE48A14D03B036CCA04157CA01 /* jde-agr2019-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "jde-agr2019-prefix.pch"; sourceTree = "<group>"; };
 		49365F9478BCDA6B5D4E5EBEFE365D4C /* Pods-jde-agr2019_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-jde-agr2019_Tests.modulemap"; sourceTree = "<group>"; };
 		4EDAD0061AB2E8FDE561F922219C6538 /* Pods-jde-agr2019_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-jde-agr2019_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		5A950C5BDEF0E13BB48A5A2CDBEAAA74 /* Pods_jde_agr2019_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_jde_agr2019_Tests.framework; path = "Pods-jde-agr2019_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5A950C5BDEF0E13BB48A5A2CDBEAAA74 /* Pods_jde_agr2019_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_jde_agr2019_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5CFA612360D27EF46542C1944A5E53B4 /* jde-agr2019-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "jde-agr2019-umbrella.h"; sourceTree = "<group>"; };
 		6530FBE6EFF803CDEC9CFA524D366B3F /* Pods-jde-agr2019_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-jde-agr2019_Example-frameworks.sh"; sourceTree = "<group>"; };
-		6AA98B1E32D70D5E3D18582E3748CBF7 /* jde-agr2019.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = "jde-agr2019.podspec"; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		6AA98B1E32D70D5E3D18582E3748CBF7 /* jde-agr2019.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = "jde-agr2019.podspec"; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		6DC9AA961BEFD77DF9BE50B1256587D3 /* Pods-jde-agr2019_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-jde-agr2019_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		6E97CBA4596A93DDA5B0AC1F490CDF39 /* Pods-jde-agr2019_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-jde-agr2019_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		736E308B568DB5160F57097831002268 /* Pods-jde-agr2019_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-jde-agr2019_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		85E3A53E94007D31C587733D28494B99 /* jde_agr2019.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = jde_agr2019.framework; path = "jde-agr2019.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		85E3A53E94007D31C587733D28494B99 /* jde_agr2019.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = jde_agr2019.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8E40CED5225396523CD33A2AD937779D /* Pods-jde-agr2019_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-jde-agr2019_Example.modulemap"; sourceTree = "<group>"; };
 		8FE1BCBCA96B6A0549D84E3F599812BF /* jde-agr2019-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "jde-agr2019-Info.plist"; sourceTree = "<group>"; };
 		940847CE955A22B5AE915DE24EBA55E5 /* Pods-jde-agr2019_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-jde-agr2019_Example-umbrella.h"; sourceTree = "<group>"; };
 		950BCA2A334E413F3E492D01E23356A0 /* Pods-jde-agr2019_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-jde-agr2019_Tests-Info.plist"; sourceTree = "<group>"; };
 		9A0CF28C9C53E1136017B8684FC6DE62 /* Pods-jde-agr2019_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-jde-agr2019_Example.release.xcconfig"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A8BFA26C6441FAC52F8514137481F0A3 /* jde-agr2019-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "jde-agr2019-dummy.m"; sourceTree = "<group>"; };
-		A97BE66BF8BD764B23B22A0B092FBF91 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		A97BE66BF8BD764B23B22A0B092FBF91 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		B66543F0FBCCFC98AE118F18C3A42C46 /* jde-agr2019.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "jde-agr2019.xcconfig"; sourceTree = "<group>"; };
 		B9C7D0615A005E2509A5CC7C2A2629FD /* Pods-jde-agr2019_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-jde-agr2019_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		BC04E2D61F1DFA64134F0252C543C1A8 /* jde-agr2019.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "jde-agr2019.modulemap"; sourceTree = "<group>"; };
 		C5EDCAAD82F8EF321DBC9E7743AA546A /* Pods-jde-agr2019_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-jde-agr2019_Tests-umbrella.h"; sourceTree = "<group>"; };
 		D51380EBEFF8ED80F9AC8CB3A1619FA2 /* Pods-jde-agr2019_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-jde-agr2019_Example-dummy.m"; sourceTree = "<group>"; };
-		DF292B868C5BEC43A40F179B008E904D /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = "jde-agr2019/Classes/ReplaceMe.swift"; sourceTree = "<group>"; };
 		F01ED5C42F75BE67FD594262FF7CBFF5 /* Pods-jde-agr2019_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-jde-agr2019_Tests-dummy.m"; sourceTree = "<group>"; };
-		FF1A3E372F7BCAFF663A6D9557594B45 /* Pods_jde_agr2019_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_jde_agr2019_Example.framework; path = "Pods-jde-agr2019_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF1A3E372F7BCAFF663A6D9557594B45 /* Pods_jde_agr2019_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_jde_agr2019_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -129,7 +127,7 @@
 		0F7CA97A1E3850778D5C8E1F61721B0F /* jde-agr2019 */ = {
 			isa = PBXGroup;
 			children = (
-				DF292B868C5BEC43A40F179B008E904D /* ReplaceMe.swift */,
+				BEFEF1C92359ABCD0053B506 /* Source */,
 				00B3543A1BB801D0FD0E298E284DA607 /* Pod */,
 				87B150206671CF589BFF1D5D946CA1BD /* Support Files */,
 			);
@@ -157,6 +155,13 @@
 			);
 			name = "Support Files";
 			path = "Example/Pods/Target Support Files/jde-agr2019";
+			sourceTree = "<group>";
+		};
+		BEFEF1C92359ABCD0053B506 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Source;
 			sourceTree = "<group>";
 		};
 		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
@@ -374,7 +379,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				09A0A2ED842144740D5C1C757729F539 /* jde-agr2019-dummy.m in Sources */,
-				9E1D544C8EEA8C872CAF30ECE189E7E6 /* ReplaceMe.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -420,7 +424,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/jde-agr2019/jde-agr2019-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/jde-agr2019/jde-agr2019-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/jde-agr2019/jde-agr2019.modulemap";
 				PRODUCT_MODULE_NAME = jde_agr2019;
@@ -452,7 +456,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-jde-agr2019_Example/Pods-jde-agr2019_Example-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-jde-agr2019_Example/Pods-jde-agr2019_Example.modulemap";
@@ -486,7 +490,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/jde-agr2019/jde-agr2019-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/jde-agr2019/jde-agr2019-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/jde-agr2019/jde-agr2019.modulemap";
 				PRODUCT_MODULE_NAME = jde_agr2019;
@@ -517,7 +521,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-jde-agr2019_Tests/Pods-jde-agr2019_Tests-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-jde-agr2019_Tests/Pods-jde-agr2019_Tests.modulemap";
@@ -587,8 +591,7 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
@@ -674,7 +677,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-jde-agr2019_Example/Pods-jde-agr2019_Example-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-jde-agr2019_Example/Pods-jde-agr2019_Example.modulemap";
@@ -707,7 +710,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-jde-agr2019_Tests/Pods-jde-agr2019_Tests-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-jde-agr2019_Tests/Pods-jde-agr2019_Tests.modulemap";
